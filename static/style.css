@@ -1,0 +1,57 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content{
+    background-color: #336699;
+    width: 100%;
+    height: 950px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.button-place{
+    height: 25px;
+    width: 95%;
+    background-color: white;
+    position: relative;
+    left: 2.5%;
+    border: 2px solid silver;
+    margin-bottom: 20px;
+}
+
+
+.image-place{
+    height: 720px;
+    width: 95%;
+    background-color: white;
+    position: relative;
+    left: 2.5%;
+    border: 2px solid silver;
+    margin-bottom: 20px;
+}
+
+.results-place{
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    position: relative;
+    left: 2.5%;
+    border: 2px solid silver;
+}
+
+#im{
+     max-width: 90%;
+     max-height: 700px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto
+}
+
