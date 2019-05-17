@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Fractal Dimension Calculation Interface
+        </title>
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+                <h1>CHOOSE A PICTURE TO ANALYZE</h1>
+
+				<div class="button-place">
+                    <form id="upload-form" action="{{ url_for('upload')}}" method="POST" enctype="multipart/form-data">
+                    	<input type="file" name="file" accept="image/*" multiple>	
+                    	<input type="submit" value="send">
+                    </form> 
+                	
+                </div>
+                <div class="image-place">
+                     <div id="wrapper"><img src="{{ url_for('static', filename = image_name) }}" id="im"></div>
+                </div>
+                <div class="results-place">
+                    <p>The computed Minkowski–Bouligand fractal dimension of the image is: {{ output }}</p>
+                </div>
+
+        </div>
+        
+    </body>
+</html>
