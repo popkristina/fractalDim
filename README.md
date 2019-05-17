@@ -1,1 +1,1 @@
-"# A script that returns the fractal dimension of an input image." 
+"A script that returns the fractal dimension of an input image." 
